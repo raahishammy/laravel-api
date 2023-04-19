@@ -10,7 +10,7 @@ class Products extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'price', 'cost', 'description'];
+    protected $fillable = ['title', 'price', 'cost', 'description', 'units', 'weight_per_unit'];
 
     /**
      * Get the attachments for the product.
